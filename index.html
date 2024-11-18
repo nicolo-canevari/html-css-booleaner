@@ -12,7 +12,9 @@
 
     <header>
         <!-- Titolo_e_immagini_di_testa -->
-        <img id="logo" src="./img/logo.svg" alt="logo_boolean">
+        <div>
+            <img id="logo" src="./img/logo.svg" alt="logo_boolean">
+        </div>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Barners-Lee</h1>
         <p>Scritto da <span id="fonte">The Booleaner</span></p>
         <p id="data_articolo">il 10/10/2020</p>
@@ -26,7 +28,7 @@
 
     <section>
         <!-- main_section -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span id="marker">Ratione animi mollitia
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="marker">Ratione animi mollitia
                 doloribus amet sint aperiam
                 quos harum</span>, consequuntur vel quo itaque error quibusdam, eaque ab veritatis accusamus sunt
             assumenda nobis?
@@ -85,8 +87,10 @@
 
     <section>
         <!-- secondary_section -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum facere dignissimos pariatur iure earum
-            sint. Officiis, iste debitis. Exercitationem hic fugit libero commodi nemo amet veritatis illo nulla dolore.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="marker">Modi rerum facere dignissimos
+                pariatur iure earum
+                sint. Officiis, iste debitis.</span> Exercitationem hic fugit libero commodi nemo amet veritatis illo
+            nulla dolore.
         </p>
         <!-- secondary_section -->
     </section>
@@ -94,12 +98,15 @@
     <footer>
         <!-- immagini_di_coda -->
         <h3>Potrebbero interessarti</h3>
-        <h4 id="img_monitor">Lorem ipsum dolor</h4>
-        <h4 id="img_grafico">Lorem ipsum dolor</h4>
-
-
-
-
+        <div id="img_container1">
+            <img src="./img/monitor.jpg" alt="immagine monitor">
+            <div id="image_text1">Lorem ipsum dolor</div>
+        </div>
+        <div id="img_container2">
+            <img src="./img/graph.jpg" alt="immagine grafico">
+            <div id="image_text2">Lorem ipsum dolor</div>
+        </div>
+        <!-- immagini_di_coda -->
     </footer>
 </body>
 
